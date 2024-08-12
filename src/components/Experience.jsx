@@ -101,10 +101,6 @@ function Experience() {
   return (
     <div>
       <div
-        initial={{ y: 50, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1.5, ease: "easeInOut" }}
-        viewport={{ once: false }}
         className="p-[4%] lg:p-[6%]"
         id="experience"
       >
@@ -139,7 +135,7 @@ function Experience() {
                 }
               >
                 <div>
-                  <h3 className="text-white text-[24px] font-bold lg:text-[1.5rem] ">
+                  <h3 className="text-white text-[24px] font-bold lg:text-[1.5rem] md:text-[1.2rem]">
                     {experience.title}
                   </h3>
                   <p

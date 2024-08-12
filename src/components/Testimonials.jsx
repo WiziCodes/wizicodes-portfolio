@@ -110,7 +110,7 @@ const testimonials = [
         transition={{ duration: 0.5 }}
       >
         <Swiper
-          className={`${name} pb-[3rem] pt-4`}
+          className={`${name} pb-[3rem] px-1 pt-4`}
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, Autoplay]}
           spaceBetween={50}
@@ -139,6 +139,7 @@ const testimonials = [
             // when window width is >= 480px
             480: {
               slidesPerView: 1,
+              spaceBetween: 10,
             },
             // when window width is >= 640px
             640: {
@@ -153,7 +154,7 @@ const testimonials = [
         >
           {testimonials.map((testimony, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full h-[20rem] bg-white dark:bg-[#080e31] flex flex-col rounded-md justify-between items-start shadow-sm drop-shadow-md p-8 ">
+              <div className="w-full h-[20rem] bg-red-100 dark:bg-[#080e31] flex flex-col rounded-md justify-between items-start shadow-sm drop-shadow-md p-8 ">
                 <div className="text-start font-poppins w-full">
                   <span>
                     <BiSolidQuoteLeft className="text-[1.5rem] mb-4 text-red-500 dark:text-[#59C2FF]" />

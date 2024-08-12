@@ -90,12 +90,12 @@ function Expertise() {
             className="flex flex-col items-center  justify-center bg-gradient-to-l from-yellow-400 to-red-500  radius-full
 dark:from-[#15EDED] dark:via-[#59C2FF] dark:to-[#029CF5] 
 radius-full w-full p-5 rounded-[1rem] min-h-[20rem] 
-drop-shadow-lg dark:drop-shadow-[0_35px_35px_rgba(12,_115,_183,_0.5)]"
+drop-shadow-lg dark:drop-shadow-[0_25px_25px_rgba(12,_115,_183,_0.5)]"
           >
             <h1 className="font-bold text-[#800000]  dark:text-[#001F3F] font-poppins text-[1.5rem] lg:text-[1.3rem] pb-5">
               Website Development
             </h1>
-            <ul className="grid grid-cols-2 font-bold text-[1.2rem] text-white w-full font-poppins">
+            <ul className="grid grid-cols-2 font-bold text-[1.2rem] text-white w-full">
               {webskills.map((e) => (
                 <li
                   className="flex items-center justify-start py-2 "
@@ -115,7 +115,7 @@ drop-shadow-lg dark:drop-shadow-[0_35px_35px_rgba(12,_115,_183,_0.5)]"
             className="flex flex-col items-center  justify-start bg-gradient-to-l from-yellow-400  to-red-500 radius-full
 dark:from-[#15EDED] dark:via-[#59C2FF] dark:to-[#029CF5] 
 radius-full w-full p-5 rounded-[1rem] min-h-[20rem] 
-drop-shadow-lg dark:drop-shadow-[0_35px_35px_rgba(12,_115,_183,_0.5)]"
+drop-shadow-lg dark:drop-shadow-[0_25px_25px_rgba(12,_115,_183,_0.5)]"
           >
             <h1 className="font-bold text-[1.5rem] lg:text-[1.3rem] text-[#800000] dark:text-[#001F3F] pb-5">
               Graphic Design

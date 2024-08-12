@@ -20,7 +20,7 @@ function LandingPage() {
   return (
     <div>
       <div
-        className="lp flex lg:flex-col-reverse lg:items-center lg:justify-center sm:mt-4 lg:pb-10 md:mt-4 md:pb-1 w-full h-screen md:h-screen lg:h-screen lg:mt-0 overflow-hidden"
+        className="lp flex lg:flex-col-reverse lg:items-center relative lg:justify-center sm:mt-4 lg:pb-10 md:mt-4 md:pb-1 w-full h-screen md:h-screen lg:h-screen lg:mt-0 overflow-hidden"
         id="home"
       >
         <div className="flex flex-col justify-center w-[50%] xl:w-[55%] items-start lg:items-center z-10 pl-10 lg:pl-0 lg:w-full">
@@ -29,11 +29,11 @@ function LandingPage() {
               <h1>Scroll Down</h1>
             </div>
           </div>
-          <h3 className="font-bold font-poppins text-[2rem] text-[#800020d2] dark:text-[#029CF5] sm:text-[1.1rem] lg:text-[1.5rem] md:text-[1.2rem] lg:pt-6">
+          <h3 className="font-bold font-poppins text-[2rem] text-[#800020d2] dark:text-[#029CF5] sm:text-[1.1rem] lg:text-[1.5rem] md:text-[1.1rem] lg:pt-6">
             Hi! I&apos;m Wisdom
           </h3>
           <div className="lg:flex lg:justify-start lg:w-full lg:items-center w-[50rem]">
-            <div className=" text-[#800000] font-extrabold text-[4rem] sm:text-[1.5rem] xl:text-[4rem] lg:text-[2.5rem] md:text-[2rem] lg:text-center lg:w-full m-0 dark:text-white">
+            <div className=" text-[#800000] font-extrabold text-[4rem] sm:text-[1.5rem] xl:text-[4rem] lg:text-[2.5rem] md:text-[2rem] lg:text-center lg:w-full m-0 dark:text-white font-roboto">
               <h1 className="-mb-[0.8rem] sm:py-1">I&apos;m a </h1>
               <span className="text-red-500 dark:text-[#029CF5] ">
                 <ReactTypingEffect
@@ -45,13 +45,13 @@ function LandingPage() {
               </span>
             </div>
           </div>
-          <p className="font-poppins text-[#800020] dark:text-[#d1d0d0] lg:text-center sm:text-[1rem]  md:text-[1.2rem] lg:text-[1.3rem] lg:pb-2 lg:px-1 lg:font-bold sm:mt-1 font-bold text-[1.05rem]">
+          <p className="font-poppins text-[#800020] dark:text-[#d1d0d0] lg:text-center sm:text-[1rem]  md:text-[1rem] lg:text-[1.3rem] lg:pb-2 lg:px-1 lg:font-bold sm:mt-1 font-bold text-[1.05rem]">
             Bringing your vision to life, one pixel at a time.
           </p>
           <div className="flex flex-wrap w-full items-center justify-start lg:justify-center lg:-mt-4  sm:mt-[0.20rem]">
             <button
               onClick={handleClick}
-              className="bg-red-500 dark:bg-[#029CF5] shadow-md w-40 sm:w-30 sm:h-[1.5rem] md:h-[2rem] h-10 rounded-lg text-white mr-3 my-4 sm:my-1 sm:rounded-[5px]"
+              className="bg-red-500 dark:bg-[#029CF5] shadow-md w-40 sm:w-30 sm:h-[1.5rem] md:h-[2.5rem] h-10 rounded-lg text-white mr-3 my-4 sm:my-1 sm:rounded-[5px]"
             >
               {" "}
               Download CV
@@ -59,7 +59,7 @@ function LandingPage() {
             <a href="#contact">
               {" "}
               <button
-                className="bg-red-500 dark:bg-[#029CF5]  shadow-md w-20 sm:h-[1.5rem] md:h-[2rem]  h-10 rounded-lg sm:rounded-[5px]
+                className="bg-red-500 dark:bg-[#029CF5]  shadow-md w-20 sm:h-[1.5rem] md:h-[2.5rem]  h-10 rounded-lg sm:rounded-[5px]
              text-white"
               >
                 Hire me
