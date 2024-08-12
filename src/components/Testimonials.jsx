@@ -153,7 +153,7 @@ const testimonials = [
         >
           {testimonials.map((testimony, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full h-[20rem] bg-[#f8f8f8] dark:bg-[#080e31] flex flex-col rounded-md justify-between items-start shadow-sm drop-shadow-md p-8 ">
+              <div className="w-full h-[20rem] bg-white dark:bg-[#080e31] flex flex-col rounded-md justify-between items-start shadow-sm drop-shadow-md p-8 ">
                 <div className="text-start font-poppins w-full">
                   <span>
                     <BiSolidQuoteLeft className="text-[1.5rem] mb-4 text-red-500 dark:text-[#59C2FF]" />
