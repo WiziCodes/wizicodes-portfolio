@@ -100,10 +100,7 @@ function Experience() {
 
   return (
     <div>
-      <div
-        className="p-[4%] lg:p-[6%]"
-        id="experience"
-      >
+      <div className="p-[4%] lg:p-[6%]" id="experience">
         <motion.div
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -114,9 +111,9 @@ function Experience() {
         </motion.div>
         <div style={{ backgroundColor: backgroundColor }}>
           <VerticalTimeline lineColor={`${color}`}>
-            {experiences.map((experience) => (
+            {experiences.map((experience, index) => (
               <VerticalTimelineElement
-                key={experience}
+                key={index}
                 contentStyle={{
                   background: backgroundColor,
                   color: color,

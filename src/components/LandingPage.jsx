@@ -1,15 +1,8 @@
-import { useState } from "react";
 import myImage from "../assets/img2.png";
 import ReactTypingEffect from "react-typing-effect";
 import { motion } from "framer-motion";
 
 function LandingPage() {
-  const width = window.innerWidth;
-
-  useState(() => {
-    console.log(width);
-  }, [width]);
-
   const handleClick = () => {
     const link = document.createElement("a");
     link.href = "./assets/wisdom-ajibade-CV.pdf"; // path to your PDF file
@@ -20,7 +13,7 @@ function LandingPage() {
   return (
     <div>
       <div
-        className="lp flex lg:flex-col-reverse lg:items-center relative lg:justify-center sm:mt-4 lg:pb-10 md:mt-4 md:pb-1 w-full h-screen md:h-screen lg:h-screen lg:mt-0 overflow-hidden"
+        className="lp flex lg:flex-col-reverse lg:items-center relative lg:justify-center lg:pb-10 md:pb-1 w-full h-screen md:h-screen lg:h-screen overflow-hidden"
         id="home"
       >
         <div className="flex flex-col justify-center w-[50%] xl:w-[55%] items-start lg:items-center z-10 pl-10 lg:pl-0 lg:w-full">

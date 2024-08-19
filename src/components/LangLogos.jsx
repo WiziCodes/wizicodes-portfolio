@@ -4,8 +4,8 @@ import mongodb from "../assets/logos/mongodb.png";
 import nodejs from "../assets/logos/nodejs.png";
 import tailwind from "../assets/logos/tailwind.png";
 import css from "../assets/logos/css.png";
-import javascript from "../assets/logos/javascript.png"
-import git from "../assets/logos/git.png"
+import javascript from "../assets/logos/javascript.png";
+import git from "../assets/logos/git.png";
 
 function LangLogos() {
   const logo = [
@@ -58,82 +58,80 @@ function LangLogos() {
     >
       <div className="tag-list lg:w-[90%]">
         <div className="inner">
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
-          {logo.map((logo) => (
-            <img key={logo} src={logo.src} alt={logo.name} />
+          {logo.map((logo, index) => (
+            <img key={index} src={logo.src} alt={logo.name} />
           ))}
         </div>
-        <div
-          className="fade dark:bg-gradient-to-l dark:from-[#050818] dark:via-transparent dark:to-[#050818]"
-        ></div>
+        <div className="fade dark:bg-gradient-to-l dark:from-[#050818] dark:via-transparent dark:to-[#050818]"></div>
       </div>
     </div>
   );

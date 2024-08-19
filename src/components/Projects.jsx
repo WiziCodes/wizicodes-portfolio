@@ -215,16 +215,15 @@ function Projects() {
           viewport={{ once: false }}
           className="flex items-center justify-between w-[50%] lg:w-[100%] lg:pr-2 pt-2"
         >
-          <button
+          <div
             onClick={() => {
               setSelected("website");
             }}
-            className="w-full mr-4 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 radius-full
-            dark:from-[#15EDED] dark:via-[#59C2FF] dark:to-[#029CF5] radius-full
+            className="w-full mr-4 
             p-[2px] rounded-md shadow-card font-roboto lg:h-[4rem] sm:h-[3.5rem]"
           >
             <button
-              className={`bg-white dark:bg-[#080e31] p-1 rounded-[inherit] w-full
+              className={`bg-[#dfdfdf] dark:bg-[#080e31] p-2 rounded-[inherit] w-full
                flex justify-evenly items-center flex-col ${
                  selected === "website"
                    ? "text-red-500 dark:text-[#15EDED]"
@@ -233,17 +232,16 @@ function Projects() {
             >
               WEBSITE DEVELOPMENT
             </button>{" "}
-          </button>
-          <button
+          </div>
+          <div
             onClick={() => {
               setSelected("graphics");
             }}
-            className={`w-full mr-1 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 radius-full
-            dark:from-[#15EDED] dark:via-[#59C2FF] dark:to-[#029CF5] radius-full
+            className={`w-full mr-1 
             p-[2px] rounded-md shadow-card font-roboto  lg:h-[4rem] sm:h-[3.5rem] font-bold`}
           >
             <button
-              className={`bg-white dark:bg-[#080e31] p-1 rounded-[inherit] w-full h-full
+              className={`bg-[#dfdfdf] dark:bg-[#080e31] p-2 rounded-[inherit] w-full h-full
                flex justify-evenly items-center flex-col ${
                  selected === "graphics"
                    ? "text-red-500 dark:text-[#15EDED]"
@@ -253,7 +251,7 @@ function Projects() {
               {" "}
               GRAPHIC DESIGN
             </button>{" "}
-          </button>
+          </div>
         </motion.div>
         <motion.div
           initial={{ y: 50, opacity: 0 }}
@@ -282,7 +280,7 @@ function Projects() {
             loop={true}
             autoplay={{
               delay: 5000,
-              disableOnInteraction: false,
+              disableOnInteraction: true,
             }}
             breakpoints={{
               // when window width is >= 320px
@@ -315,17 +313,6 @@ function Projects() {
                   alt="sample img"
                 />
                 <div className=" cursor-pointer card-info absolute transition duration-150 ease-in top-0 bottom-0 left-0 right-0 opacity-1 bg-[#0000004b] text-white flex justify-end items-start p-3 flex-col">
-                  {/* <button
-                    className="top-[1rem] absolute right-4 flex items-center "
-                    onClick={() => {
-                      setModal(true),
-                        setModalImg(info.src),
-                        setStyle(info.style);
-                    }}
-                  >
-                    <FaEye className="text-[1.2rem] text-[#facc15] dark:text-[#15EDED]" />{" "}
-                    <span className="ml-2 font-roboto">View</span>
-                  </button> */}
                   <h1 className=" font-extrabold font-roboto">{info.name}</h1>
                   <h1 className="text-[#facc15] font-bold  dark:text-[#15EDED]">
                     {info.languages}

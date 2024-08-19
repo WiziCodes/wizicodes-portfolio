@@ -115,7 +115,7 @@ const testimonials = [
           modules={[Navigation, Pagination, Scrollbar, Autoplay]}
           spaceBetween={50}
           navigation={false}
-          pagination={true}
+          pagination={false}
           scrollbar={false}
           grabCursor={true}
           centeredSlides={false}
@@ -129,7 +129,7 @@ const testimonials = [
           loop={true}
           autoplay={{
             delay: 15000,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
           }}
           breakpoints={{
             // when window width is >= 320px

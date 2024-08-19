@@ -37,9 +37,9 @@ function About() {
           />
         </motion.div>
         <div className="py-[3%] grid grid-cols-3 xl:grid-cols-2 md:!grid-cols-[100%] important gap-10 mt-4 w-[100%]">
-          {skills.map((skill) => (
+          {skills.map((skill, index) => (
             <motion.div
-              key={skill}
+              key={index}
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: false }}
@@ -49,7 +49,7 @@ function About() {
       p-[1px] rounded-[20px] shadow-card"
             >
               <div
-                key={skill}
+                key={index}
                 className="bg-[#f5f5f5] dark:bg-[#080e31] rounded-[20px] py-5 px-12 min-h-[280px]
        flex justify-evenly items-center flex-col dark:text-[#d1d0d0] text-center"
               >

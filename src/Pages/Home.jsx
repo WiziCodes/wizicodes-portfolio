@@ -1,4 +1,3 @@
-import React from "react";
 import LandingPage from "../components/LandingPage";
 import Nav from "../components/Nav";
 import About from "../components/About";
